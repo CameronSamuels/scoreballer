@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+	background: #eee;
+	color: #555;
+	font-family: sans-serif;
+	text-align: center;
+	white-space: nowrap;
+	overflow-x: hidden;
+}
+h1 {
+  margin: 15px;
+  font-size: 10vmin;
+}
+section {
+	display: inline-block;
+	width: calc(50% - 2px);
+	margin: 0 0 15px;
+}
+@media screen and (max-width: 500px) {
+	section {
+		display: block;
+		width: 100%;
+		height: calc(50% - 30px);
+	}
+}
+h2 {
+	margin: 0;
+	font-size: 10vmin;
+	outline: 0;
+}
+p {
+	margin: 0;
+	font-size: 22vmin;
+}
+section>div {
+	display: inline-block;
+	width: 6vmin;
+	margin: 2px;
+	padding: 10px;
+	border: .5vmin #555 solid;
+	border-radius: calc(7vmin + 24px);
+	font-size: 6vmin;
+	line-height: 6vmin;
+	user-select: none;
+	-webkit-user-select: none;
+	cursor: pointer;
+}
+section>div:active {
+	background: #bbb;
+}
