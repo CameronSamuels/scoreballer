@@ -1,2 +1,2 @@
-# scoreballer
-Digital sports game scoreboard
+**Scoreballer**
+<br>Digital sports game scoreboard
